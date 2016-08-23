@@ -1,0 +1,97 @@
+html, body{
+  height: 100%;
+}
+body{
+  font-family: Verdana, Geneva, sans-serif;
+  background-attachment: fixed;
+  background-color: #ffffff;
+  padding: 0;
+  margin: 0;
+}
+div{
+  padding: 0px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.glyphicon {
+  position: relative;
+  top: 1px;
+  padding: 0px;
+}
+/*FONTS*/
+
+
+.w3-allerta {
+  font-family: "Allerta Stencil", Sans-serif;
+}
+
+.w3-red,.w3-hover-red:hover{color:#fff!important;background-color:#f44336!important}
+/*HEAD BAR*/
+.head-bar{
+  padding: 2%;
+  text-align: center;
+  font-size: 4em;
+
+  color: ;
+}
+@media (max-width: 256px) {
+  .head-bar{
+    font-size: 2em;
+    padding: 1em;
+  }
+}
+
+#welcome-note{
+  text-align: center;
+  font-size: 0.7em;
+  padding: 0.5em;
+  color: #111;
+}
+
+.introDiv{
+  padding: 3em; 
+  font-family: Verdana, Geneva, sans-serif;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 1.2em;
+  line-height: 2em;
+}
+@media (max-width: 256px) {
+  .introDiv{
+  padding: 2em;
+  text-align: left;
+  font-size: 1em;
+  line-height: 2em;
+  }
+}
+.instructions{
+  border-radius: 5px;
+  font-size: 1.3em;
+  padding: 5%;
+  margin-left: 16%;
+  margin-right: 16%;
+  margin-bottom: 2%;
+}
+@media (max-width: 256px) {
+  .instructions{
+    font-size: 1em;
+    padding: 10%;
+    margin: 0;
+  }
+}
+#gmail{
+
+    background-color: #555555;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto;
+    cursor: pointer;
+}
