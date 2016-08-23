@@ -78,7 +78,8 @@ img {
 @media (max-width: 400px) {
   .instructions{
     font-size: 1em;
-    padding-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin: 0;
   }
 }
