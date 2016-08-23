@@ -78,8 +78,8 @@ img {
 @media (max-width: 400px) {
   .instructions{
     font-size: 1em;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 0px;
+    padding-right: 3%;
     margin: 0;
   }
 }
@@ -100,7 +100,7 @@ img {
 @media (max-width: 400px) {
   #gmail{
     padding: 5px 12px;
-    font-size: 0.8em;
+    font-size: 1.2em;
     margin: auto;
   }
 }
