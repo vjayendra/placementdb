@@ -21,6 +21,9 @@ img {
   top: 1px;
   padding: 0px;
 }
+a{
+  text-decoration: none;
+}
 /*FONTS*/
 
 
@@ -39,7 +42,7 @@ img {
 }
 @media (max-width: 400px) {
   .head-bar{
-    font-size: 2.5em;
+    font-size: 1.5em;
     padding: 1em;
   }
 }
@@ -57,7 +60,7 @@ img {
   text-align: justify;
   text-justify: inter-word;
   font-size: 1.2em;
-  line-height: 2em;
+  line-height: 1.5em;
 }
 @media (max-width: 400px) {
   .introDiv{
@@ -71,17 +74,13 @@ img {
   border-radius: 5px;
   font-size: 1.3em;
   padding: 5%;
-  margin-left: 16%;
-  margin-right: 16%;
   margin-bottom: 2%;
 }
 @media (max-width: 400px) {
   .instructions{
     font-size: 1em;
-    padding-left: 0px;
-    padding-right: 3%;
+    padding-right: 5px;
     margin: 0;
-    border-radius: 0;
   }
 }
 #gmail{
@@ -101,10 +100,57 @@ img {
 @media (max-width: 400px) {
   #gmail{
     padding: 5px 12px;
-    font-size: 1.2em;
+    font-size: 0.8em;
     margin: auto;
   }
 }
+
+.steps-main{
+  margin-left: 10%;
+}
+.steps-in>a{
+  text-decoration: none;
+  color: #111111;
+}
+.steps{
+  float: left;
+  text-align: center;
+  margin: auto;
+}
+.steps-in{
+  border-radius: 5%;
+}
+.steps-in p{
+  font-size: 1em;
+  padding: 10%;
+  -webkit-transition: box-shadow 0.4s; /* Safari */
+  transition: box-shadow 0.4s;
+}
+
+.steps-in p:hover{
+  box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)!important;
+}
+
+@media (max-width: 400px) {
+
+    .steps-main{
+      margin-left: 0;
+    }
+    
+    .steps-in{
+      border-radius: 5%;
+    }
+    .steps-in p{
+      font-size: 1em;
+      padding: 8%;
+      -webkit-transition: box-shadow 0.4s; /* Safari */
+      transition: box-shadow 0.4s;
+    }
+
+}
+
+
+
 
 /*Responsive Width Classes*/
 .vj-xs-12 {
